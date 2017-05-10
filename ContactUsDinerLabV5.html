@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Contact Us</title>
+    <link href="restaurantStylesV5.css"
+          rel="stylesheet"
+          type="text/css"/>
+  </head>
+  <body>
+      <div id="Chead">
+  <center><h1>Ma's Diner</h1></center>
+      <hr>
+        <div class="container">
+          <ul class="nav nav-tabs">
+            <li><a href="dinerLabV5.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="MaMenuV5.html">Menu</a></li>
+            <li><a href="ContactUsDinerLabV5.html">Contact Us</a></li>
+            >
+          </ul>
+        </div>
+      <hr>
+      </div>
+  <form action="#" method="post">
+    <div>
+            <label id="NameLabel" for="Name"><b>Name:</b> </label>
+            <input id="Name" name="Name" type="text"/>
+        </div><br/>
+    <div>
+            <label id="EmailLabel" for="Email"><b>Email:</b> </label>
+            <input id="Email" name="Email" type="text"/>
+        </div><br/>
+    <div>
+            <label id="PhoneLabel" for="Phone"><b>Phone:</b> </label>
+            <input id="Phone" name="Phone" type="text"/>
+        </div><br/>
+    <div>
+      <b>Reason for Inquiry:</b>
+    <select>
+        <option value="Catering">Catering</option>
+        <option value="PrivateParty">Private Party</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Other">Other</option>
+      </select>
+    </div><br/>
+    <div>
+            <label id="AdditionalInformationLabel" for="Additional Information"><b>Additional Information:</b> </label>
+            <textarea id="AdditionalInformation" name="AdditionalInformation"></textarea>
+        </div><br/>
+        <div>
+          <b>Have You Been to the Resturant?</b>
+          <input type="radio" name="Yes" value="Yes">Yes
+          <input type="radio" name="No" value="No">No<br>
+        </div><br/>
+    <div>
+      <div>
+        <b>Best days to contact you:</b>
+        <input type="checkbox" name="M" value="M">M
+        <input type="checkbox" name="T" value="T">T
+        <input type="checkbox" name="W" value="W">W
+        <input type="checkbox" name="Th" value="Th">Th
+        <input type="checkbox" name="F" value="F">F
+        </div>
+           <input type="submit" id="submitbutton" value="Send Request"/>
+        </div>    
+  </form>
+  <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  
+  <footer>
+    <hr>
+        Peach St., Atlanta, GA, 30301<br/>
+        (404)555-5555
+  </footer>
+</html>
