@@ -1,0 +1,77 @@
+footer{
+    text-align: center;
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body { 
+    background-color: #50CBFF;
+}
+#Mhead, #Hhead, #Chead, footer {
+    background-color: #FF4652
+}
+
+table{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            td{
+                text-align: center;
+                
+            }
+a {
+    text-decoration: none;
+    color: blue
+}
+a:visited{
+    color: yellow;
+    text-decoration: underline;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    text-decoration: none;
+}
+
+#bev {
+    text-decoration: underline, bold;
+    text-align: left;
+}
+
+#Mfoot {
+    position:static; 
+	top:100%; 
+    width:100%;
+	margin-top: 15%;
+    text-align: center;
+}
+
+#hfoot {
+    position:static; 
+	top:100%; 
+    width:100%;
+	margin-top: 10%;
+    text-align: center;
+}
+
+#T2 {
+    width: 70%;
+    
+}
+
+#myCarousel {
+    height: 250px;
+    background-color: paleturquoise;
+    
+}
+.myCarousel-text{
+    font-size: 2em;
+    padding-top:7%;
+    padding-left: 43%;
+}
