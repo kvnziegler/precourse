@@ -79,3 +79,7 @@ a:active {
     padding-top:7%;
     padding-left: 43%;
 }
+
+.container-fluid {
+    padding:0;
+}
